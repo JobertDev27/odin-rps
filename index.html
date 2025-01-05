@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <h1>ROCK PAPER SCISSORS GO!</h1>
+    </header>
+
+    <section id="button">
+        <div>
+            <button class="rock">
+                <img src="rock.png" alt="">
+                ROCK
+            </button>
+        </div>
+        <div>
+            <button class="paper">
+                <img src="paper.png" alt="">
+                PAPER
+            </button>
+        </div>
+        <div>
+            <button class="scissor">
+                <img src="scissor.png" alt="">
+                SCISSOR
+            </button>
+        </div>
+    </section>
+
+    <section id="choice-confirmation">
+        <div>
+            <h2>YOU PICKED:</h2>
+            <span class="choice-text">null</span>
+            <button class="confirm">CONFIRM</button>
+        </div>
+    </section>
+
+    <section id="result">
+        <div class="ai-choice-img">
+            <div class="player-score"> <span>Player = 0</span> </div>
+            <div class="ai-score"> <span>AI = 0</span> </div>
+        </div>
+        <div class="flavor-text">
+            <span class="aftermath-text">What Will You Choose?</span>
+            <span class="ai-choice">The AI is thinking.....</span>
+        </div>
+    </section>
+</body>
+</html>
